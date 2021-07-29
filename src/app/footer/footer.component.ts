@@ -8,6 +8,7 @@ import { vietnguyen } from 'src/assets/data/nguye374Data';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent implements OnInit {
+  viet: nguye374 = vietnguyen;
 
   constructor() { }
 

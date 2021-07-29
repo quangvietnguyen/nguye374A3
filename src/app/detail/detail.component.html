@@ -1,0 +1,14 @@
+<nav *ngFor="let item of books;">
+    <button (click)="loadBook(item)">{{item.bookName}}</button>
+</nav>
+<section id="detail" [hidden]="visible">
+    <h3>Detail</h3>
+    <p><strong>Book Name: </strong>{{n}}</p>
+    <p><strong>Author: </strong>{{a}}</p>
+    <p><strong>Genre: </strong>{{g}}</p>
+    <p><strong>Year Published: </strong>{{y}}</p>
+</section>
+<section id="picture" [hidden]="visible">
+    <h3>Picture</h3>
+    <img [src]="p" />
+</section>

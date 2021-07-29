@@ -9,7 +9,7 @@ import { vietnguyen } from 'src/assets/data/nguye374Data';
 })
 export class HeaderComponent implements OnInit {
 
-  nguye374 = vietnguyen;
+  viet: nguye374 = vietnguyen;
 
   constructor() { }
 
