@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { nguye374 } from '../nguye374';
+import { vietnguyen } from 'src/assets/data/nguye374Data';
 
 @Component({
   selector: 'app-header',
@@ -6,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+
+  nguye374 = vietnguyen;
 
   constructor() { }
 
