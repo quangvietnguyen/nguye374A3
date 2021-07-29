@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body {
+    margin: auto;
+    padding: auto;
+    align-items: center;
+    margin:auto;
+    padding:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+    color: RGB(28, 40, 38)
+}
+
+@media (orientation: portrait){
+    body {
+        width: 373px;
+        height: 809px;
+    }
+}
+
+@media (orientation: landscape){
+    body {
+        width: 810px;
+        height: 373px;
+    }
+}
